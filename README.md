@@ -1,56 +1,40 @@
-# Weather-Appx
+# 🌤️ Weather-Appx
 
-This is a simple, responsive weather web application that allows users to search for the current weather in any location. It fetches real-time weather data using the WeatherAPI and displays temperature, location, local time, and weather conditions with an icon.
+**Weather-Appx** is a simple, responsive weather web application that allows users to search for the current weather in any location. It fetches real-time data using the [WeatherAPI](https://www.weatherapi.com/) and displays temperature, location, local time, and weather conditions with an icon.
 
-🧩 Features
-Fetches real-time weather data from WeatherAPI.
+---
 
-Displays:
+## 🧩 Features
 
-Temperature in Celsius
+✅ Fetches real-time weather data from **WeatherAPI**  
+✅ Displays:
+- 🌡️ Temperature (°C)
+- 📍 Location name
+- 🕒 Local date and time
+- ☁️ Weather condition with an icon
 
-Location name
+✅ Search functionality for any city  
+✅ Fully responsive and minimal UI design
 
-Local date and time
+---
 
-Weather condition and icon
+## 📁 Project Structure
 
-Search functionality to view weather in any city.
+weather-appx/
 
-Responsive and minimal UI design.
+├── index.html # Main HTML structure
 
+├── style.css # App styling
 
-📁 Project Structure
-bash
-Copy
-Edit
+└── main.js # JavaScript logic for API call and DOM update
 
-├── index.html       # Main HTML file (UI layout)
-
-├── style.css        # Styling for the app
-
-├── main.js          # JavaScript for fetching and displaying weather
-
-🔧 How to Run
-Clone or download the repository.
-
-Open index.html in your browser.
-
-Search for any location in the input field at the bottom of the page.
-
-💡 Make sure you have internet access to fetch data from the WeatherAPI.
-
-🔑 API Key
-
-This project uses a sample API key (Your APIKEY). You are encouraged to get your own free API key from WeatherAPI.com for long-term use.
+##🔑 API Key
+Replace YOUR_API_KEY in main.js with your own free key from WeatherAPI.com:
 
 let url = `http://api.weatherapi.com/v1/current.json?key=YOUR_API_KEY&q=${place}&aqi=no`;
 
 🎨 UI Preview
-
-![image](https://github.com/user-attachments/assets/957e4ddf-65c7-4828-9bdd-66fbf10f4846)
-
+![image](https://github.com/user-attachments/assets/b1ba81c7-fc41-4ac5-a2a7-7cb81d162d20)
 
 📄 License
-
 This project is open source and free to use for educational purposes.
